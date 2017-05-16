@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\375d5c244debebbc4d0b9f5300ec91f1cbe79d11\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9f9be0a31eaeb91b194ff904b76f4b01b87d63b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha7_d20863c5243cfce2dfe5d3c1674ab039f9d0a95d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_7c52023db38c22cdf8f6703a5ebbb3269c70300b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_fbfa4cbfe73c64ae06e5937c72f56868ddab1f0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\84c5bd421500b0de5f62fbf048a97c1e0f288829\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36ff1e068559d6737e58bf5053821abeaa21bd27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\a6a812b04a6c5fd95e0e2ffd643606f280764d61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adce51c6c948fa6efac65a97e467c3d3fc2861da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\73ca6782556f46becfe8e24d8d3e565deb473e59\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92e499961ce754e615c5302786e35a2293c6fd64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e521b5c28802fd2ddca205694482031795b6a43b">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4d8bbe7be95665c05cc4303b68e94788d6e09a29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_f1f40c76e62b537e6dacf660999a983a1e5a866c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\f79263f08bccaca38e47e4fa6d409f86214ab9b6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aff44a74191fee4a0484f3383f4dcf238b7d8471\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\2b60133e4b3ccd37d92219b22136848b1f8b0f90\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29fc7ef2d7731bce13e57aa0a496cbc760edc308\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\c1590fb438ba2911e1e21151edd702649d1aca0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d7664b08dd660b9708cb56b64367c6e2c21e1e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\6871c876e3fa0bb487400987feb2f879cc51c879\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee5b200dc685a35735a8a128add9cc004c8821eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\a4c121b9157a4fa679d060cca00167df15d7afa3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_195b34ae09be0c3b92387583001cf3e4c1b68b7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\.android\build-cache\c17c4af45c694d40ab612b9496906a2ee267a735\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad9524755faf0d3c83b651e3b040bd4d2b8ba8d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Desenvolvimento\Documents\GitHub\FarmaPopular\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b58552a711f59b883db9c22a86e8acad2ec31a48\classes.dex" />
+    </item>
+
+</items>
