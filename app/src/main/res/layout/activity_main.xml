@@ -59,9 +59,11 @@
             android:text="Como Adquirir"
             android:textColor="#FFF"/>
         <Button
+            android:id="@+id/button_discar"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:background="#204A9C"
+            android:onClick="onClickDiscar"
             android:text="136\nOuvidoria SUS\nLigue já"
             android:textColor="#FFF"/>
 
