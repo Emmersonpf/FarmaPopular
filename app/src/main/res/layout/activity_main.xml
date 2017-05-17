@@ -14,8 +14,8 @@
         android:gravity="center">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="452px"
+            android:layout_height="129px"
             android:background="@mipmap/ic_fp"
             />
     </LinearLayout>
@@ -63,7 +63,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:background="#204A9C"
-            android:onClick="onClickDiscar"
+            android:onClick="disc"
             android:text="136\nOuvidoria SUS\nLigue já"
             android:textColor="#FFF"/>
 
@@ -84,17 +84,18 @@
 
 
     </LinearLayout>
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:layout_gravity="bottom"
         android:gravity="center">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="260px"
+            android:layout_height="81px"
             android:background="@mipmap/ic_genius"
             />
-    </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>
