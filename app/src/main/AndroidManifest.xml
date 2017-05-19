@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".Farmacia">
         </activity>
+        <activity android:name=".EstadoBusca">
+        </activity>
     </application>
 
 </manifest>
