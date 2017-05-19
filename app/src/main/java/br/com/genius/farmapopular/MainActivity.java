@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
-
-
     }
 
 
@@ -41,12 +39,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-    public void farmacia(View v){
-        Intent intent =new Intent(this,Farmacia.class);
-        startActivity(intent);
-    }
+   public void farmacia(View v){
+       Intent i=new Intent(this,EstadoBusca.class);
+       startActivity(i);
+   }
 }
 
 

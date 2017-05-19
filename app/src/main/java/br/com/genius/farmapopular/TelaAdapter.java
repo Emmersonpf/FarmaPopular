@@ -41,13 +41,14 @@ public class TelaAdapter extends BaseAdapter {
         View view = act.getLayoutInflater()
                 .inflate(R.layout.lista_farmacia_cadastrada, parent, false);
         Dados listas= lista.get(position);
-        TextView endereco=(TextView)view.findViewById(R.id.Endereco);
-        TextView uf=(TextView)view.findViewById(R.id.uf);
-        TextView cidade=(TextView)view.findViewById(R.id.Cidade);
+        TextView nomeFarmacia=(TextView)view.findViewById(R.id.NomeFarmacia);
+        TextView estado=(TextView)view.findViewById(R.id.Uf);
+        TextView municipio=(TextView)view.findViewById(R.id.Municipio);
 
-        endereco.setText("RUA: "+listas.getEndereco());
-        uf.setText("ESTADO:"+listas.getEstado());
-        cidade.setText("CIDADE: "+listas.getCidade());
+        nomeFarmacia.setText(listas.getFarmacia());
+        estado.setText(listas.getUF());
+        municipio.setText(listas.getMunicipio());
+
         return view;
     }
 }

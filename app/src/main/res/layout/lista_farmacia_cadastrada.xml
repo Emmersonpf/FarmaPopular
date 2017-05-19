@@ -5,20 +5,20 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/Endereco"
+        android:id="@+id/NomeFarmacia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/uf"
+        android:id="@+id/Uf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Endereco"
+        android:layout_below="@+id/NomeFarmacia"
         android:layout_marginTop="5dp" />
     <TextView
-        android:id="@+id/Cidade"
+        android:id="@+id/Municipio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/uf"
+        android:layout_below="@+id/Uf"
         android:layout_marginTop="5dp" />
 </RelativeLayout>
