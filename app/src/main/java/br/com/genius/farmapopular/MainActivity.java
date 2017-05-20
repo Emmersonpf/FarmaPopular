@@ -1,6 +1,7 @@
 package br.com.genius.farmapopular;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -16,6 +17,7 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import static android.R.attr.alertDialogIcon;
 import static android.R.attr.permission;
 import static android.R.attr.phoneNumber;
 
@@ -38,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    public void OnClickAjuda(View v){
+        String url = "https://www.youtube.com";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 
    public void farmacia(View v){
        Intent i=new Intent(this,EstadoBusca.class);

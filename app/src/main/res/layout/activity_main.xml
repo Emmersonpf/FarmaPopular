@@ -35,13 +35,15 @@
             android:textSize="16dp"
             android:textColor="#FFF"
             android:onClick="farmacia"/>
+
         <Button
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:background="#204A9C"
-            android:text="Medicamentos"
-            android:textSize="16dp"
-            android:textColor="#FFF"/>
+            android:onClick="OnClickMapa"
+            android:text="Mapa Farmacias"
+            android:textColor="#FFF"
+            android:textSize="16dp" />
 
     </LinearLayout>
     <LinearLayout
@@ -56,7 +58,7 @@
             android:layout_height="130dp"
             android:layout_marginRight="30dp"
             android:background="#204A9C"
-            android:text="Como Adquirir"
+            android:text="Medicamentos"
             android:textColor="#FFF"/>
         <Button
             android:id="@+id/button_discar"
@@ -75,12 +77,25 @@
         android:layout_marginTop="20dp"
         android:gravity="center">
 
+
         <Button
-            android:layout_width="290dp"
-            android:layout_height="80dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="30dp"
             android:background="#204A9C"
+            android:text="Como Adquirir"
+            android:textSize="16dp"
+            android:textColor="#FFF"
+            android:onClick="farmacia"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="#204A9C"
+            android:onClick="OnClickAjuda"
             android:text="Ajuda"
-            android:textColor="#FFF"/>
+            android:textColor="#FFF" />
+
 
 
     </LinearLayout>
