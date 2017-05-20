@@ -22,7 +22,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="texto em desenvolvimento"/>
+        android:text="Pensando no Mundo melhor atráves da internet e aplicativos
+desenvolvemos o FarmaPupular que leva você até as fármacias nas localidades disponíves,
+trazendo uma comodidade agradável.'\n'
+\n
+Para adquirir
+\n
+1- Passo: Acessar  a PlayStore e procurar o app FarmaPopular. \n
+\n
+2- Passo: Realizar o download gratuido instalando no Celular. \n
+\n
+3- Passo: Aproveitar as vantagens localizando as farmácias mais proximas de você.  "/>
     //android:background="@mipmap/adesivo"
 
     <LinearLayout
