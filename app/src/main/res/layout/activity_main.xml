@@ -41,7 +41,7 @@
             android:layout_height="130dp"
             android:background="#204A9C"
             android:onClick="OnClickMapa"
-            android:text="Mapa Farmacias"
+            android:text="Localizar mais próxima"
             android:textColor="#FFF"
             android:textSize="16dp" />
 
