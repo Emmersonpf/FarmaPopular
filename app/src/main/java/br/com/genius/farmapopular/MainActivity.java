@@ -43,6 +43,11 @@ public class MainActivity extends AppCompatActivity {
        Intent i=new Intent(this,EstadoBusca.class);
        startActivity(i);
    }
+
+   public void BtAquirir(View v){
+       Intent i = new Intent(this,Adquirir.class);
+       startActivity(i);
+   }
 }
 
 

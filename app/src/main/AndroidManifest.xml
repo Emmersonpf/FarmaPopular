@@ -31,8 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Farmacia"></activity>
-        <activity android:name=".EstadoBusca"></activity>
+        <activity android:name=".Farmacia" />
+        <activity android:name=".EstadoBusca" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -48,7 +48,11 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Adquirir"
+            android:label="@string/title_activity_adquirir"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
