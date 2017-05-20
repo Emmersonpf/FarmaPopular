@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
        Intent i = new Intent(this,Adquirir.class);
        startActivity(i);
    }
+    public void BtMedic(View v){
+        Intent i = new Intent(this,Medic_Activity.class);
+        startActivity(i);
+    }
 }
 
 

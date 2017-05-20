@@ -52,7 +52,8 @@
         <activity
             android:name=".Adquirir"
             android:label="@string/title_activity_adquirir"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Medic_Activity"></activity>
     </application>
 
 </manifest>
