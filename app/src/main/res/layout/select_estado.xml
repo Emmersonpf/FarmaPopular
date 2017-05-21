@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
-    <TextView
+    android:orientation="vertical">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Digite o estado:  EX:PE"
-        android:gravity="center"
-        android:id="@+id/textView" />
-    <AutoCompleteTextView
+        android:background="#204A9C"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="452px"
+            android:layout_height="129px"
+            android:background="@mipmap/ic_fp"
+            />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/autoCompleat"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="139dp" />
-    <Button
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Buscar"
         android:onClick="Buscar"
-        android:layout_marginBottom="217dp"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-</RelativeLayout>
+        android:layout_below="@+id/spinner1"
+        android:layout_alignParentStart="true"
+        android:height="90dp"/>
+        </LinearLayout>
+</LinearLayout>

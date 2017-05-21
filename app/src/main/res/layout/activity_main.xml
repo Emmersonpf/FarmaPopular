@@ -86,7 +86,7 @@
             android:text="Como Adquirir"
             android:textSize="16dp"
             android:textColor="#FFF"
-            android:onClick="farmacia"/>
+            android:onClick="adiquirir"/>
 
         <Button
             android:layout_width="130dp"
