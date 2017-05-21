@@ -55,7 +55,7 @@ Para adquirir
         android:gravity="center">
 
         <ImageButton
-            android:id="@+id/tm"
+            android:id="@+id/t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@mipmap/ic_genius"
