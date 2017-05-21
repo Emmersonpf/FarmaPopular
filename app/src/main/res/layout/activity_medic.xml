@@ -33,7 +33,7 @@
         android:gravity="center">
 
         <ImageButton
-            android:id="@+id/btst"
+            android:id="@+id/bts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@mipmap/ic_genius"

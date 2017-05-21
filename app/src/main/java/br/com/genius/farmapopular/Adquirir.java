@@ -12,7 +12,7 @@ public class Adquirir extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adquirir2);//chamando o xml
+        setContentView(R.layout.activity_adquirir2);//chamando xml
 
 
 
