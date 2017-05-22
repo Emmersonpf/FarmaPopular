@@ -60,7 +60,7 @@ Para adquirir
             android:layout_height="wrap_content"
             android:background="@mipmap/ic_genius"
             android:layout_gravity="bottom"/>
-    </LinearLayout>
+    </LinearLayout>22e6
 
 
 </LinearLayout>
