@@ -22,44 +22,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="\nPensando no Mundo melhor atráves da internet e aplicativos
-desenvolvemos o FarmaPupular que leva você até as fármacias nas localidades disponíves,
-trazendo uma comodidade agradável.'\n'
-\n
-Para adquirir
-\n
-1- Passo: Acessar  a PlayStore e procurar o app FarmaPopular. \n
-\n
-2- Passo: Realizar o download gratuido instalando no Celular. \n
-\n
-3- Passo: Aproveitar as vantagens localizando as farmácias mais proximas de você.  "/>
-    //android:background="@mipmap/adesivo"
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Voltar"
-            android:onClick="VTInical"/>
-
-    </LinearLayout>
-
+        android:text="\nO Programa Saúde Não Tem Preço, do governo federal, oferece acesso gratuito a medicamentospara hipertensão\n e diabetes a todos os cidadãos brasileiros desde fevereiro de 2011.\n
+\nPara receber os remédios, os cidadãos precisam apresentar o CPF, um documento com foto e a receita médica (desde que emitida há até 120 dias) em qualquer um dos 15 mil estabelecimentos conveniados à rede Aqui Tem Farmácia Popular."/>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:gravity="center">
+        android:layout_marginTop="123dp"
+        android:gravity="center"
+        >
 
         <ImageButton
             android:id="@+id/teste"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_genius"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_genius" />
     </LinearLayout>
 
 
