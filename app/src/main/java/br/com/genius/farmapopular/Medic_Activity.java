@@ -17,7 +17,7 @@ public class Medic_Activity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setTitle("Voltar");     //Titulo para ser exibido na sua Action Bar em frente à seta
+        getSupportActionBar().setTitle("Voltar");
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
