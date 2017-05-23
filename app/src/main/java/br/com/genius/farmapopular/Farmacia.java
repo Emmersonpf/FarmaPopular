@@ -7,8 +7,13 @@ import android.opengl.EGLExt;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
@@ -43,7 +48,7 @@ public class Farmacia extends ListActivity {
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         final String txt = bundle.getString("text");
-        String Url="http://sage.saude.gov.br/paineis/aqt/lista_farmacia.php?output=json&";
+        String Url="http://sage.saude.gov.br/paineis/aqt/lista_farmacia.php?ufs="+txt+"&output=json&";
         final AsyncHttpClient dados = new AsyncHttpClient();
         dados.get(Farmacia.this,Url,new AsyncHttpResponseHandler(){
 
@@ -54,7 +59,6 @@ public class Farmacia extends ListActivity {
                 gson=new Gson();
                 j=gson.fromJson(response,jsonFormat.class);
                 for(int i=0;i<j.getResultset().size();i++) {
-                    if (j.getResultset().get(i).get(1).equals(txt.toUpperCase())){
                     Dados d=new Dados();
                         d.setCodIbge(j.getResultset().get(i).get(0));
                         d.setUF(j.getResultset().get(i).get(1));
@@ -71,7 +75,6 @@ public class Farmacia extends ListActivity {
                         d.setAno(j.getResultset().get(i).get(12));
                         d.setMes(j.getResultset().get(i).get(13));
                         s.add(d);
-                    }
                 }
                 chamarTela();
             }
@@ -87,6 +90,14 @@ public class Farmacia extends ListActivity {
         TelaAdapter adapter = new TelaAdapter(s, this);
         setListAdapter(adapter);
     }
-
-
+    @Override
+    public void onListItemClick(ListView l,View v,int position,long id){
+        Intent intent=new Intent(Farmacia.this,MostrarDados.class);
+        Bundle bundle=new Bundle(  );
+        bundle.putString("nome",s.get(position).getFarmacia());
+        bundle.putString("endereco",s.get(position).getEndereco());
+        bundle.putString("telefone",s.get(position).getTelefone());
+        intent.putExtras(bundle);
+        startActivity(intent);
+    }
 }

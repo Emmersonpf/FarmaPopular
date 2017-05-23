@@ -3,10 +3,13 @@ package br.com.genius.farmapopular;
 import android.app.Activity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import java.util.List;
+
+import static br.com.genius.farmapopular.R.id.parent;
 
 /**
  * Created by Desenvolvimento on 17/05/2017.
@@ -51,4 +54,7 @@ public class TelaAdapter extends BaseAdapter {
 
         return view;
     }
+
+
 }
+
