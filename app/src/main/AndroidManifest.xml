@@ -49,10 +49,8 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity
-            android:name=".Adquirir"
-            android:label="@string/title_activity_adquirir"
-            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Adquirir"></activity>
         <activity android:name=".MostrarDados"></activity>
         <activity android:name=".Medic_Activity"></activity>
     </application>
