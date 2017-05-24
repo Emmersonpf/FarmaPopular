@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 /**
  * Created by Desenvolvimento on 19/05/2017.
@@ -119,7 +120,9 @@ public class EstadoBusca extends Activity{
         Bundle bundle=new Bundle(  );
         bundle.putString("text",NumEstado);
         intent.putExtras(bundle);
+        Toast.makeText(this,"Carregando...",Toast.LENGTH_SHORT).show();
         startActivity(intent);
+
     }
 
 }

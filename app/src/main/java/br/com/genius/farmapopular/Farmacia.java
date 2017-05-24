@@ -51,11 +51,9 @@ public class Farmacia extends ListActivity {
         String Url="http://sage.saude.gov.br/paineis/aqt/lista_farmacia.php?ufs="+txt+"&output=json&";
         final AsyncHttpClient dados = new AsyncHttpClient();
         dados.get(Farmacia.this,Url,new AsyncHttpResponseHandler(){
-
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 String response=new String(responseBody);
-
                 gson=new Gson();
                 j=gson.fromJson(response,jsonFormat.class);
                 for(int i=0;i<j.getResultset().size();i++) {
@@ -85,7 +83,6 @@ public class Farmacia extends ListActivity {
             }
         });
     }
-
     private void chamarTela() {
         TelaAdapter adapter = new TelaAdapter(s, this);
         setListAdapter(adapter);
