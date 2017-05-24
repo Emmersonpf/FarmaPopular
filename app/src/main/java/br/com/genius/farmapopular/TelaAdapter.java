@@ -1,6 +1,10 @@
 package br.com.genius.farmapopular;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -15,13 +19,14 @@ import static br.com.genius.farmapopular.R.id.parent;
  * Created by Desenvolvimento on 17/05/2017.
  */
 
-public class TelaAdapter extends BaseAdapter {
+public class TelaAdapter extends BaseAdapter  {
     private final List<Dados> lista;
     private final Activity act;
 
     public TelaAdapter(List<Dados> lista, Activity act) {
         this.lista = lista;
         this.act=act;
+
     }
 
     @Override

@@ -9,6 +9,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.UiSettings;
@@ -25,7 +26,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getApplicationContext());
+        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getApplicationContext());
         if(status == ConnectionResult.SUCCESS) {
 
             SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -35,6 +36,8 @@ int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getApplication
             Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status,(Activity)getApplicationContext(),10);
             dialog.show();
         }
+
+
     }
     @Override
     public void onMapReady(GoogleMap googleMap) {
