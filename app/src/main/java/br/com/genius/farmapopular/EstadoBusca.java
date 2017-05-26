@@ -28,6 +28,11 @@ public class EstadoBusca extends Activity{
         dropdown.setAdapter(adapter1);
     }
 
+    public void voltarEstado(View v){
+        Intent i=new Intent(this,MainActivity.class);
+        startActivity(i);
+    }
+
     public void Buscar(View v){
         Intent intent=new Intent(EstadoBusca.this,Farmacia.class);
         Spinner dropdown = (Spinner)findViewById(R.id.spinner1);

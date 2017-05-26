@@ -94,6 +94,7 @@ public class Farmacia extends ListActivity {
         bundle.putString("nome",s.get(position).getFarmacia());
         bundle.putString("endereco",s.get(position).getEndereco());
         bundle.putString("telefone",s.get(position).getTelefone());
+        bundle.putString("UF",s.get(position).getUF());
         intent.putExtras(bundle);
         startActivity(intent);
     }

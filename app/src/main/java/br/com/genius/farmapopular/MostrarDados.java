@@ -1,16 +1,20 @@
 package br.com.genius.farmapopular;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by Desenvolvimento on 23/05/2017.
  */
 
 public class MostrarDados extends AppCompatActivity {
+    String Numeros=new String();
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -26,5 +30,15 @@ public class MostrarDados extends AppCompatActivity {
         nomeview.setText(nome);
         enderecoview.setText( endereco);
         telefoneview.setText( telefone );
+        Numeros=bundle.getString("telefone").toString();
+    }
+    public void Ligar(View v){
+        Uri uri = Uri.parse("tel:" + Numeros);
+        Intent intent = new Intent(Intent.ACTION_CALL, uri);
+        startActivity(intent);
+    }
+    public void voltar(View v){
+        Intent i=new Intent(this,EstadoBusca.class);
+        startActivity(i);
     }
 }
