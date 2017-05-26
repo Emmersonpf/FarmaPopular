@@ -61,7 +61,8 @@
             android:layout_marginTop="20dp"
             android:textColor="#FFF"
             android:textSize="12pt"
-            android:height="90dp"/>
+            android:height="90dp"
+            android:onClick="voltarEstado"/>
 
         <ImageButton
             android:layout_width="280px"

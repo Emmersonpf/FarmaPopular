@@ -80,7 +80,8 @@
         android:layout_margin="11dp"
         android:background="#204A9C"
         android:text="VOLTAR"
-        android:textColor="#fff"/>
+        android:textColor="#fff"
+        android:onClick="voltar"/>
 
         <Button
             android:layout_width="160dp"
@@ -88,6 +89,7 @@
             android:layout_margin="11dp"
             android:background="#006400"
             android:text="LIGAR"
-            android:textColor="#fff"/>
+            android:textColor="#fff"
+            android:onClick="Ligar"/>
     </LinearLayout>
 </LinearLayout>
