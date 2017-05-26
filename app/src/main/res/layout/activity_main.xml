@@ -9,17 +9,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="#204A9C"
-        android:gravity="center"
-        >
+        android:gravity="center">
 
         <ImageButton
-            android:layout_width="452px"
-            android:layout_height="129px"
-            android:background="@mipmap/ic_fp"
-            />
+            android:layout_width="450px"
+            android:layout_height="135px"
+            android:background="@mipmap/ic_fp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +31,7 @@
             android:layout_height="130dp"
             android:layout_marginRight="30dp"
             android:background="#204A9C"
-            android:text="Farmácias"
+            android:text="FARMÁCIAS"
             android:textSize="16dp"
             android:textColor="#FFF"
             android:onClick="farmacia"/>
@@ -42,7 +41,7 @@
             android:layout_height="130dp"
             android:background="#204A9C"
             android:onClick="OnClickMapa"
-            android:text="Localizar mais próxima"
+            android:text="PERTO DE VOCÊ"
             android:textColor="#FFF"
             android:textSize="16dp" />
 
@@ -68,7 +67,7 @@
             android:layout_height="130dp"
             android:background="#204A9C"
             android:onClick="disc"
-            android:text="136\nOuvidoria SUS\nLigue já"
+            android:text="LIGUE 136\nOuvidoria SUS"
             android:textColor="#FFF"/>
 
     </LinearLayout>
@@ -95,7 +94,8 @@
             android:layout_height="130dp"
             android:background="#204A9C"
             android:onClick="OnClickAjuda"
-            android:text="Ajuda"
+            android:text="SOBRE"
+            android:textSize="16dp"
             android:textColor="#FFF" />
 
 
@@ -109,8 +109,8 @@
         android:gravity="center">
 
         <ImageButton
-            android:layout_width="260px"
-            android:layout_height="81px"
+            android:layout_width="240px"
+            android:layout_height="47px"
             android:background="@mipmap/ic_genius"
             />
     </RelativeLayout>

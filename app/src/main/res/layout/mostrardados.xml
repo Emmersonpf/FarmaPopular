@@ -13,30 +13,63 @@
         android:textSize="12pt"
         android:textColor="#204A9C"/>
 
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#204A9C"
+            android:textSize="9dp"
+            android:text="Farmácia"
+            />
+        <TextView
         android:id="@+id/nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:textColor="#204A9C"
-        android:text="Farmacia: "/>
+        />
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#204A9C"
+            android:textSize="8dp"
+            android:text="Endereço"
+            />
+        <TextView
         android:id="@+id/endereco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#204A9C"
-        android:layout_margin="5dp"
         android:layout_below="@+id/nome"
         />
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#204A9C"
+            android:textSize="8dp"
+            android:text="Fone"
+            />
+        <TextView
         android:id="@+id/telefone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#204A9C"
-        android:layout_margin="5dp"
         android:layout_below="@+id/endereco"/>
+
+        </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,7 +77,7 @@
     <Button
         android:layout_width="160dp"
         android:layout_height="60dp"
-        android:layout_margin="10dp"
+        android:layout_margin="11dp"
         android:background="#204A9C"
         android:text="VOLTAR"
         android:textColor="#fff"/>
@@ -52,9 +85,9 @@
         <Button
             android:layout_width="160dp"
             android:layout_height="60dp"
-            android:layout_margin="10dp"
-            android:background="#204A9C"
-            android:text=""
+            android:layout_margin="11dp"
+            android:background="#006400"
+            android:text="LIGAR"
             android:textColor="#fff"/>
     </LinearLayout>
 </LinearLayout>

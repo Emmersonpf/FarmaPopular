@@ -41,16 +41,33 @@
             android:backgroundTintMode="add"/>
 
         <Button
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:text="Buscar"
+        android:onClick="Buscar"
+        android:id="@+id/button"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignParentStart="true"
+        android:background="#204A9C"
+        android:textColor="#FFF"
+        android:textSize="12pt"
+        android:height="90dp"/>
+        <Button
             android:layout_width="290dp"
             android:layout_height="50dp"
-            android:text="Buscar"
-            android:onClick="Buscar"
-            android:id="@+id/button"
-            android:layout_below="@+id/spinner1"
-            android:layout_alignParentStart="true"
+            android:text="VOLTAR"
+            android:id="@+id/btnvoltar"
             android:background="#204A9C"
+            android:layout_marginTop="20dp"
             android:textColor="#FFF"
             android:textSize="12pt"
             android:height="90dp"/>
+
+        <ImageButton
+            android:layout_width="280px"
+            android:layout_height="60px"
+            android:layout_marginTop="120dp"
+            android:background="@mipmap/ic_genius"
+            />
     </LinearLayout>
 </LinearLayout>
