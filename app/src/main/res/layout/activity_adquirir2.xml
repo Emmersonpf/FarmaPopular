@@ -21,25 +21,29 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/TViewAdq"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="\nO Programa Saúde Não Tem Preço, do governo federal, oferece acesso gratuito a medicamentospara hipertensão\n e diabetes a todos os cidadãos brasileiros desde fevereiro de 2011.\n
-\nPara receber os remédios, os cidadãos precisam apresentar o CPF, um documento com foto e a receita médica (desde que emitida há até 120 dias) em qualquer um dos 15 mil estabelecimentos conveniados à rede Aqui Tem Farmácia Popular."/>
+\nPara receber os remédios, os cidadãos precisam apresentar o CPF, um documento com foto e a receita médica (desde que emitida há até 120 dias) em qualquer um dos 15 mil estabelecimentos conveniados à rede Aqui Tem Farmácia Popular.
+
+\n\nEssa rede é formada por farmácias e drogarias privadas que aderiram, a partir de 2006, ao programa Farmácia Popular do Brasil, criado para levar remédios essenciais a preços até 90% mais baixos à população.\n"/>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="123dp"
-        android:gravity="center"
-        >
+        android:layout_marginTop="30dp"
+        android:gravity="center">
 
         <ImageButton
             android:id="@+id/teste"
-            android:layout_width="wrap_content"
+            android:layout_width="271dp"
             android:layout_height="wrap_content"
+
             android:layout_gravity="center"
-            android:background="@mipmap/ic_genius" />
+            android:background="@mipmap/ic_genius"
+            android:baselineAlignBottom="true" />
     </LinearLayout>
 
 
