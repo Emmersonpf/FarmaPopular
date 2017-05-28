@@ -93,7 +93,10 @@ public class Farmacia extends ListActivity {
         Bundle bundle=new Bundle(  );
         bundle.putString("nome",s.get(position).getFarmacia());
         bundle.putString("endereco",s.get(position).getEndereco());
+        bundle.putString("bairro",s.get(position).getBairro());
+        bundle.putString("cidade",s.get(position).getMunicipio());
         bundle.putString("telefone",s.get(position).getTelefone());
+        bundle.putString("email",s.get(position).getEmail());
         bundle.putString("UF",s.get(position).getUF());
         intent.putExtras(bundle);
         startActivity(intent);

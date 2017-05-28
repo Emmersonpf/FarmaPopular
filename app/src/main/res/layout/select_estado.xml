@@ -55,13 +55,12 @@
         <Button
             android:layout_width="290dp"
             android:layout_height="50dp"
-            android:text="VOLTAR"
-            android:id="@+id/btnvoltar"
             android:background="#204A9C"
             android:layout_marginTop="20dp"
             android:textColor="#FFF"
             android:textSize="12pt"
-            android:height="90dp"
+            android:text="VOLTAR"
+            android:id="@+id/btnvoltar"
             android:onClick="voltarEstado"/>
 
         <ImageButton

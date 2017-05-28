@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         */
         //==========================Novo=========================================
         // Create a Uri from an intent string. Use the result to create an Intent.
-        Uri gmmIntentUri = Uri.parse("geo:0,0?q=Farmacia+Popular&z=16");
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=Farmacia+Popular&z=20");
         // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         // Make the Intent explicit by setting the Google Maps package

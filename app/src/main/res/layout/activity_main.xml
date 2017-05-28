@@ -14,8 +14,8 @@
         android:gravity="center">
 
         <ImageButton
-            android:layout_width="450px"
-            android:layout_height="135px"
+            android:layout_width="387px"
+            android:layout_height="98px"
             android:background="@mipmap/ic_fp" />
     </LinearLayout>
 
@@ -110,7 +110,7 @@
 
         <ImageButton
             android:layout_width="240px"
-            android:layout_height="47px"
+            android:layout_height="50px"
             android:background="@mipmap/ic_genius"
             />
     </RelativeLayout>

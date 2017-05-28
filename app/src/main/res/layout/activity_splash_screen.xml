@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204A9C"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="487px"
+        android:layout_height="135px"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@mipmap/ic_fp" />
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="50px"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@mipmap/ic_genius" />
+
+</LinearLayout>
