@@ -1,6 +1,5 @@
 package br.com.genius.farmapopular;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.View;
@@ -9,7 +8,7 @@ import android.view.View;
  * Created by I9CenterTechnology on 28/05/2017.
  */
 
-public class Sobre extends Activity {
+public class Sobre extends MainActivity {
 
 
     public void OnClickAjuda(View v){
