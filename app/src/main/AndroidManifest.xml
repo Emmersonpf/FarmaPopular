@@ -38,9 +38,9 @@
         <activity android:name=".Adquirir"></activity>
         <activity android:name=".MostrarDados"></activity>
         <activity android:name=".Medic_Activity"></activity>
-        <activity android:name=".Sobre" />
-        <activity android:name=".Mapa" />
-        <activity android:name=".Discar" />
+        <activity android:name=".Discar"></activity>
+        <activity android:name=".Sobre"></activity>
+        <activity android:name=".Mapa"></activity>
     </application>
 
 </manifest>
