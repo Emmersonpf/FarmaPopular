@@ -31,10 +31,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="30dp"
             android:background="#204A9C"
+            android:onClick="OnClickFarmacia"
             android:text="FARMÁCIAS"
-            android:textSize="16dp"
             android:textColor="#FFF"
-            android:onClick="farmacia"/>
+            android:textSize="16dp"/>
 
         <Button
             android:layout_width="130dp"
@@ -58,15 +58,16 @@
             android:layout_height="130dp"
             android:layout_marginRight="30dp"
             android:background="#204A9C"
+            android:onClick="OnClickBtMedic"
             android:text="Medicamentos"
-            android:textColor="#FFF"
-            android:onClick="BtMedic"/>
+            android:textColor="#FFF"/>
+
         <Button
             android:id="@+id/button_discar"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:background="#204A9C"
-            android:onClick="disc"
+            android:onClick="OnClickDiscar"
             android:text="LIGUE 136\nOuvidoria SUS"
             android:textColor="#FFF"/>
 
@@ -84,10 +85,10 @@
             android:layout_height="130dp"
             android:layout_marginRight="30dp"
             android:background="#204A9C"
+            android:onClick="OnClickBtAquirir"
             android:text="Como Adquirir"
-            android:textSize="16dp"
             android:textColor="#FFF"
-            android:onClick="BtAquirir"/>
+            android:textSize="16dp"/>
 
         <Button
             android:layout_width="130dp"

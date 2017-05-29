@@ -31,12 +31,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".Farmacia" />
+
         <activity android:name=".EstadoBusca" />
         <activity android:name=".MainActivity"></activity>
 
         <activity android:name=".Adquirir"></activity>
         <activity android:name=".MostrarDados"></activity>
         <activity android:name=".Medic_Activity"></activity>
+        <activity android:name=".Sobre" />
+        <activity android:name=".Mapa" />
+        <activity android:name=".Discar" />
     </application>
 
 </manifest>

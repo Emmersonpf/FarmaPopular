@@ -22,52 +22,34 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void disc(View view) {
-        Uri uri = Uri.parse("tel:" + 136);
-        Intent intent = new Intent(Intent.ACTION_CALL, uri);
-        startActivity(intent);
-
+    public void OnClickFarmacia(View v){
+        Intent i=new Intent(this,EstadoBusca.class);
+        startActivity(i);
     }
 
     public void OnClickMapa(View v){
-        /*
-        =======================Antigo===========================================
-        Intent z=new Intent(this,MapsActivity.class);
-        startActivity(z);
-        ==========================Fim===========================================
-        */
-        //==========================Novo=========================================
-        // Create a Uri from an intent string. Use the result to create an Intent.
-        Uri gmmIntentUri = Uri.parse("geo:0,0?q=Farmacia+Popular&z=20");
-        // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-        // Make the Intent explicit by setting the Google Maps package
-        mapIntent.setPackage("com.google.android.apps.maps");
-        // Attempt to start an activity that can handle the Intent
-        startActivity(mapIntent);
-        //==========================Fim==========================================
+        Intent i=new Intent(this,Mapa.class);
+        startActivity(i);
+    }
 
+    public void OnClickBtMedic(View v){
+        Intent i = new Intent(this,Medic_Activity.class);
+        startActivity(i);
+    }
+
+    public void OnClickDiscar(View v){
+        Intent i=new Intent(this,Discar.class);
+        startActivity(i);
+    }
+
+    public void OnClickBtAquirir(View v){
+        Intent i = new Intent(this,Adquirir.class);
+        startActivity(i);
     }
 
 
     public void OnClickAjuda(View v){
-        String url = "https://www.youtube.com";
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse(url));
-        startActivity(i);
-    }
-
-   public void farmacia(View v){
-       Intent i=new Intent(this,EstadoBusca.class);
-       startActivity(i);
-   }
-
-   public void BtAquirir(View v){
-       Intent i = new Intent(this,Adquirir.class);
-       startActivity(i);
-   }
-    public void BtMedic(View v){
-        Intent i = new Intent(this,Medic_Activity.class);
+        Intent i=new Intent(this,Sobre.class);
         startActivity(i);
     }
 
