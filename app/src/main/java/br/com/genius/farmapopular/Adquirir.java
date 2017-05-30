@@ -17,5 +17,10 @@ public class Adquirir extends AppCompatActivity {
         setContentView(R.layout.activity_adquirir2);
 
     }
+
+    public void voltar(View v){
+        Intent i=new Intent(this,MainActivity.class);
+        startActivity(i);
+    }
 }
 

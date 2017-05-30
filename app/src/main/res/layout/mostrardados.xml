@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#DCDCDC"
                 android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#204A9C">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:gravity="top"
+            android:textColor="#FFF"
+            android:textSize="18pt"
+            android:layout_marginLeft="15dp"
+            android:text="@string/seta"
+            android:id="@+id/btnvoltar"
+            android:onClick="voltar"
+            android:layout_alignParentTop="true" />
+
+        <ImageButton
+            android:layout_width="387px"
+            android:layout_height="98px"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_fp" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,9 +42,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
         android:orientation="vertical">
 
         <TextView
@@ -110,7 +136,7 @@
             android:layout_marginBottom="1dp"
             android:textColor="#204A9C"
             android:textSize="8dp"
-            android:text="Fone"
+            android:text="E-mail"
             />
         <TextView
             android:id="@+id/email"
@@ -122,7 +148,7 @@
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
     <Button
         android:layout_width="160dp"
@@ -142,4 +168,15 @@
             android:textColor="#fff"
             android:onClick="Ligar"/>
     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom">
+        <ImageButton
+            android:layout_width="240px"
+            android:layout_height="50px"
+            android:layout_marginBottom="5dp"
+            android:background="@mipmap/ic_genius"/>
+    </RelativeLayout>
 </LinearLayout>

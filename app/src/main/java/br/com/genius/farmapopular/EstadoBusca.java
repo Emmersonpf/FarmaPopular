@@ -122,10 +122,10 @@ public class EstadoBusca extends Activity{
                 NumEstado="53";
                 break;
         }
-        Bundle bundle=new Bundle(  );
+        Bundle bundle = new Bundle(  );
         bundle.putString("text",NumEstado);
         intent.putExtras(bundle);
-        Toast.makeText(this,"Carregando...",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Carregando...",Toast.LENGTH_LONG).show();
         startActivity(intent);
 
     }

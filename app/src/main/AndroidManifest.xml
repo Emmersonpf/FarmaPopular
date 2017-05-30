@@ -22,21 +22,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Farmacia" />
 
-        <activity android:name=".EstadoBusca" />
         <activity android:name=".MainActivity"></activity>
-
-        <activity android:name=".Adquirir"></activity>
-        <activity android:name=".MostrarDados"></activity>
+        <activity android:name=".Farmacia" ></activity>
+        <activity android:name=".EstadoBusca" ></activity>
+        <activity android:name=".Adquirir"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".MostrarDados"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity android:name=".Medic_Activity"></activity>
         <activity android:name=".Discar"></activity>
         <activity android:name=".Sobre"></activity>

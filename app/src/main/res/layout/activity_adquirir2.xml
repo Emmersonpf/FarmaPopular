@@ -9,42 +9,50 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#204A9C"
-        android:gravity="center">
+        android:layout_height="60dp"
+        android:background="#204A9C">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:gravity="top"
+            android:textColor="#FFF"
+            android:textSize="18pt"
+            android:layout_marginLeft="15dp"
+            android:text="@string/seta"
+            android:id="@+id/btnvoltar"
+            android:onClick="voltar"
+            android:layout_alignParentTop="true" />
 
         <ImageButton
-            android:layout_width="452px"
-            android:layout_height="129px"
-            android:background="@mipmap/ic_fp"
-            />
+            android:layout_width="387px"
+            android:layout_height="98px"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_fp" />
+
     </LinearLayout>
 
     <TextView
         android:id="@+id/TViewAdq"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#204A9C"
         android:text="\nO A campanha “Saúde Não Tem Preço” tem o objetivo de disponibilizar, gratuitamente, medicamentos indicados para o tratamento de hipertensão, diabetes e asma nas farmácias e drogarias credenciadas no “Aqui Tem Farmácia Popular”.\n
 \nPara receber os remédios, os cidadãos precisam apresentar o CPF, um documento com foto e a receita médica (desde que emitida há até 120 dias) em qualquer um dos 15 mil estabelecimentos conveniados à rede Aqui Tem Farmácia Popular.
 
 \n\nEssa rede é formada por farmácias e drogarias privadas que aderiram, a partir de 2006, ao programa Farmácia Popular do Brasil, criado para levar remédios essenciais a preços até 90% mais baixos à população.\nTodo cidadão brasileiro poderá ser beneficiado pelo Programa Farmácia Popular. Não é necessário cadastro!\n"/>
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:gravity="center">
-
+        android:layout_height="match_parent"
+        android:gravity="center|bottom">
         <ImageButton
-            android:id="@+id/teste"
-            android:layout_width="271dp"
-            android:layout_height="wrap_content"
-
-            android:layout_gravity="center"
-            android:background="@mipmap/ic_genius"
-            android:baselineAlignBottom="true" />
-    </LinearLayout>
+            android:layout_width="240px"
+            android:layout_height="50px"
+            android:layout_marginBottom="5dp"
+            android:background="@mipmap/ic_genius"/>
+    </RelativeLayout>
 
 
 </LinearLayout>
