@@ -42,7 +42,8 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity android:name=".Medic_Activity"></activity>
         <activity android:name=".Discar"></activity>
-        <activity android:name=".Sobre"></activity>
+        <activity android:name=".Sobre"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity android:name=".Mapa"></activity>
     </application>
 

@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void OnClickAjuda(View v){
+    public void OnClickSobre(View v){
         Intent i=new Intent(this,Sobre.class);
         startActivity(i);
     }
