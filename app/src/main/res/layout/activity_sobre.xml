@@ -30,20 +30,109 @@
             android:background="@mipmap/ic_fp" />
 
     </LinearLayout>
-
     <TextView
         android:id="@+id/TViewAdq"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:textColor="#204A9C"
-        android:text="\n A iDeaGenius é uma
-        \n Time de Genius\n
-        Clebson Ferreira\n
-        Emmerson Pereira\n
-        Enagio Silva\n
-        Josuel Pedro\n
-        Luiz Henrique\n"
+        android:text="\n A iDeaGenius é uma"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="btnA"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/Clebson"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Clebson Ferreira\nFunção"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="btnB"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/Emmerson"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Emmerson Pereira\nFunção"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="btnC"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/Enágio"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Enágio Silva\nFunção"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="btnD"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/Josuel"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Josuel Pedro\nFunção"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="btnE"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/Luiz"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Luiz Henrique\nFunção"/>
+
+
+    </LinearLayout>
+
 
 
     <RelativeLayout
