@@ -33,21 +33,24 @@
     <TextView
         android:id="@+id/TViewAdq"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:textColor="#204A9C"
-        android:text="\n A iDeaGenius é uma"
+        android:gravity="center"
+        android:text="\n A iDeaGenius é uma Startup que nas ceu em 2015"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
+        android:background="#204A9C"
         android:onClick="btnA"
         android:orientation="horizontal">
         <ImageButton
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@mipmap/Clebson"/>
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/clebson"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -60,13 +63,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
+        android:background="#204A9C"
         android:onClick="btnB"
         android:orientation="horizontal">
         <ImageButton
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@mipmap/Emmerson"/>
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/emmerson"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -79,13 +83,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
+        android:background="#204A9C"
         android:onClick="btnC"
         android:orientation="horizontal">
         <ImageButton
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@mipmap/Enágio"/>
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/enagio"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -98,13 +103,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
+        android:background="#204A9C"
         android:onClick="btnD"
         android:orientation="horizontal">
         <ImageButton
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@mipmap/Josuel"/>
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/josuel"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -117,13 +123,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
+        android:background="#204A9C"
         android:onClick="btnE"
         android:orientation="horizontal">
         <ImageButton
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@mipmap/Luiz"/>
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/luiz"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"

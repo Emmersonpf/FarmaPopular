@@ -37,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#204A9C"
+        android:padding="5dp"
         android:text="\n A campanha “Saúde Não Tem Preço” tem o objetivo de disponibilizar, gratuitamente, medicamentos indicados para o tratamento de hipertensão, diabetes e asma nas farmácias e drogarias credenciadas no “Aqui Tem Farmácia Popular”.\n
 \nPara receber os remédios, os cidadãos precisam apresentar o CPF, um documento com foto e a receita médica (desde que emitida há até 120 dias) em qualquer um dos 15 mil estabelecimentos conveniados à rede Aqui Tem Farmácia Popular.
 
