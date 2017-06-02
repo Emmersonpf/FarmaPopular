@@ -37,7 +37,7 @@
         android:layout_marginBottom="10dp"
         android:textColor="#204A9C"
         android:gravity="center"
-        android:text="\n A iDeaGenius é uma Startup que nas ceu em 2015"
+        android:text="\n A iDeaGenius é uma Startup que nasceu em 2015"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:padding="10dp"
-            android:text="Clebson Ferreira\nFunção"/>
+            android:text="Clebson Ferreira\nFunção: Desenvolvedor"/>
 
 
     </LinearLayout>
