@@ -22,6 +22,36 @@ public class Sobre extends AppCompatActivity {
         Intent i=new Intent(this,MainActivity.class);
         startActivity(i);
     }
+    public void btnA(View v){
+        String url = "https://www.linkedin.com/in/clebson-ferreira-4a7996a7/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void btnB(View v){
+        String url = "https://www.linkedin.com/in/emmerson-ferreira-05818686/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void btnC(View v){
+        String url = "https://www.facebook.com/enagiodepaula";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void btnD(View v){
+        String url = "https://www.linkedin.com/in/josuel-rodrigues-319906107/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void btnE(View v){
+        String url = "https://www.linkedin.com/in/luiz-henrique-23666849/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 }
 
 
