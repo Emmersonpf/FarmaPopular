@@ -22,6 +22,13 @@ public class Sobre extends AppCompatActivity {
         Intent i=new Intent(this,MainActivity.class);
         startActivity(i);
     }
+
+    public void btnSite(View v){
+        String url = "http://ideagenius.com.br/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
     public void btnA(View v){
         String url = "https://www.linkedin.com/in/clebson-ferreira-4a7996a7/";
         Intent i = new Intent(Intent.ACTION_VIEW);
