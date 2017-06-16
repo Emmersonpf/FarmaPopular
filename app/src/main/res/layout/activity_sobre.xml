@@ -74,7 +74,7 @@
             android:gravity="center|bottom"
             android:layout_margin="5dp"
             android:textSize="5pt"
-            android:text="© 2017 Farma POPULAR Versão 1.0\nTodos os direitos reservados a iDeaGenius."
+            android:text="© 2017 Farma POPULAR Versão 1.1\nTodos os direitos reservados a iDeaGenius."
             android:textColor="#204A9C" />
 
     </RelativeLayout>
