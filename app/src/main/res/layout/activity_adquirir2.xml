@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#DCDCDC"
+    android:gravity="center"
     tools:context="br.com.genius.farmapopular.MainActivity">
 
     <LinearLayout
@@ -32,16 +33,51 @@
 
     </LinearLayout>
 
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_aqt"/>
     <TextView
-        android:id="@+id/TViewAdq"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#204A9C"
-        android:padding="5dp"
-        android:text="\n A campanha “Saúde Não Tem Preço” tem o objetivo de disponibilizar, gratuitamente, medicamentos indicados para o tratamento de hipertensão, diabetes e asma nas farmácias e drogarias credenciadas no “Aqui Tem Farmácia Popular”.\n
-\nPara receber os remédios, os cidadãos precisam apresentar o CPF, um documento com foto e a receita médica (desde que emitida há até 120 dias) em qualquer um dos 15 mil estabelecimentos conveniados à rede Aqui Tem Farmácia Popular.
+        android:layout_margin="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAlignment="center"
+        android:text="Vá até uma farmácia credenciada ao programa aqui tem farmácia popular."/>
 
-\n\nEssa rede é formada por farmácias e drogarias privadas que aderiram, a partir de 2006, ao programa Farmácia Popular do Brasil, criado para levar remédios essenciais a preços até 90% mais baixos à população.\nTodo cidadão brasileiro poderá ser beneficiado pelo Programa Farmácia Popular. Não é necessário cadastro!\n"/>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_comp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#204A9C"
+        android:layout_margin="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAlignment="center"
+        android:text="Encontre medicamentos gratuitos para Hipertensão e diabetes, encontre também outros tipos de medicamentos com até 90% de desconto.
+"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_list"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#204A9C"
+        android:layout_margin="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAlignment="center"
+        android:text=" Leve com você:\n> Sua receita médica (validade de 120 dias);\n> CPF e documento de identificação com foto."/>
 
 
     <RelativeLayout

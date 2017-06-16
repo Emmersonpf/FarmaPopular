@@ -30,135 +30,37 @@
             android:background="@mipmap/ic_fp" />
 
     </LinearLayout>
-    <TextView
-        android:id="@+id/TViewAdq"
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:textColor="#204A9C"
-        android:gravity="center"
-        android:onClick="btnSite"
-        android:text="Este Aplicativo foi desenvolvido pela iDeaGenius, uma Startup que nasceu em 2015 com um I de Inovação em seu DNA. Saiba mais em: www.ideagenius.com.br"
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:background="#204A9C"
-        android:onClick="btnA"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:background="@mipmap/clebson"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:padding="10dp"
-            android:textColor="#FFF"
-            android:gravity="center_vertical"
-            android:text="Clebson Ferreira"/>
+        android:layout_gravity="center_horizontal">
 
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:background="#204A9C"
-        android:onClick="btnB"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:background="@mipmap/emmerson"/>
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:textColor="#FFF"
-            android:text="Emmerson Pereira"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <ImageButton
+                android:layout_width="277px"
+                android:layout_height="296px"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/ic_lg" />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:background="#204A9C"
-        android:onClick="btnC"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:background="@mipmap/enagio"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:padding="10dp"
-            android:textColor="#FFF"
-            android:gravity="center_vertical"
-            android:text="Enágio Silva"/>
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:background="#204A9C"
-        android:onClick="btnD"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:background="@mipmap/josuel"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:padding="10dp"
-            android:textColor="#FFF"
-            android:gravity="center_vertical"
-            android:text="Josuel Pedro"/>
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:background="#204A9C"
-        android:onClick="btnE"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:background="@mipmap/luiz"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:padding="10dp"
-            android:textColor="#FFF"
-            android:gravity="center_vertical"
-            android:text="Luiz Henrique"/>
-
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:gravity="center|bottom"
-        android:text="(c) 2017 Farma POPULAR Versão 1.0\nTodos os direitos reservados a iDeaGenius."
-        android:textColor="#204A9C"
-        android:id="@+id/textView2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textSize="8pt"
+                android:text="Este aplicativo foi desenvolvido pela Idea Genius, uma fabrica de ideias e inovação.\n\nAcesse:\nwww.ideagenius.com.br"
+                android:onClick="btnSite"
+                android:textColor="#204A9C" />
+        </LinearLayout>
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -166,12 +68,14 @@
         android:gravity="center|bottom">
 
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="240px"
-            android:layout_height="50px"
-            android:layout_marginBottom="5dp"
-            android:background="@mipmap/ic_genius" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:layout_margin="5dp"
+            android:textSize="5pt"
+            android:text="© 2017 Farma POPULAR Versão 1.0\nTodos os direitos reservados a iDeaGenius."
+            android:textColor="#204A9C" />
 
     </RelativeLayout>
 

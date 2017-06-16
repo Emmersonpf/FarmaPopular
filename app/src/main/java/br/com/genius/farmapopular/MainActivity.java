@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnClickMapa(View v){
-        Intent i=new Intent(this,Mapa.class);
-        startActivity(i);
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=Farmacia+Popular&z=20");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
-
     public void OnClickBtMedic(View v){
         Intent i = new Intent(this,Medic_Activity.class);
         Toast.makeText(this,"Carregando...",Toast.LENGTH_LONG).show();
@@ -40,8 +41,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnClickDiscar(View v){
-        Intent i=new Intent(this,Discar.class);
-        startActivity(i);
+        Uri uri = Uri.parse("tel:" + 136);
+        Intent intent = new Intent(Intent.ACTION_CALL, uri);
+        startActivity(intent);
     }
 
     public void OnClickBtAquirir(View v){
